@@ -18,6 +18,7 @@
 		39150B442C32F34500FB8711 /* MealDescriptionSlideUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39150B432C32F34500FB8711 /* MealDescriptionSlideUpView.swift */; };
 		39150B462C331F1E00FB8711 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39150B452C331F1E00FB8711 /* AsyncImageView.swift */; };
 		39150B482C3338C300FB8711 /* MealSelections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39150B472C3338C300FB8711 /* MealSelections.swift */; };
+		3956FA732C45D2BA00D22B4F /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956FA722C45D2BA00D22B4F /* AppDependencies.swift */; };
 		3963DDF42C176A3F005EF06D /* MealRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963DDF32C176A3F005EF06D /* MealRecipesApp.swift */; };
 		3963DDF62C176A3F005EF06D /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963DDF52C176A3F005EF06D /* CategorySelectionView.swift */; };
 		3963DDF82C176A41005EF06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3963DDF72C176A41005EF06D /* Assets.xcassets */; };
@@ -35,7 +36,6 @@
 		39786C792C39AE4200AACC73 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39786C782C39AE4200AACC73 /* DetailView.swift */; };
 		39786C7D2C3C59C300AACC73 /* ImageSaverRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39786C7C2C3C59C300AACC73 /* ImageSaverRepository.swift */; };
 		39786C7F2C3C5A6F00AACC73 /* ImageSaverUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39786C7E2C3C5A6F00AACC73 /* ImageSaverUseCase.swift */; };
-		397E419B2C4588F40050C019 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E419A2C4588F40050C019 /* AppDependencies.swift */; };
 		39D9DCDD2C2350F0002C27D9 /* GetMealsListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9DCDC2C2350F0002C27D9 /* GetMealsListRepository.swift */; };
 		39D9DCDF2C235730002C27D9 /* MealRecipeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9DCDE2C235730002C27D9 /* MealRecipeDTO.swift */; };
 		39D9DCE12C235999002C27D9 /* GetMealRecipeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9DCE02C235999002C27D9 /* GetMealRecipeRepository.swift */; };
@@ -53,6 +53,7 @@
 		39150B432C32F34500FB8711 /* MealDescriptionSlideUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDescriptionSlideUpView.swift; sourceTree = "<group>"; };
 		39150B452C331F1E00FB8711 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		39150B472C3338C300FB8711 /* MealSelections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSelections.swift; sourceTree = "<group>"; };
+		3956FA722C45D2BA00D22B4F /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDependencies.swift; path = ../../../../../facu/MealRecipes/MealRecipes/Data/Dependencies/AppDependencies.swift; sourceTree = "<group>"; };
 		3963DDF02C176A3F005EF06D /* MealRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3963DDF32C176A3F005EF06D /* MealRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecipesApp.swift; sourceTree = "<group>"; };
 		3963DDF52C176A3F005EF06D /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		39786C782C39AE4200AACC73 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		39786C7C2C3C59C300AACC73 /* ImageSaverRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaverRepository.swift; sourceTree = "<group>"; };
 		39786C7E2C3C5A6F00AACC73 /* ImageSaverUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaverUseCase.swift; sourceTree = "<group>"; };
-		397E419A2C4588F40050C019 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		39D9DCDC2C2350F0002C27D9 /* GetMealsListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMealsListRepository.swift; sourceTree = "<group>"; };
 		39D9DCDE2C235730002C27D9 /* MealRecipeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecipeDTO.swift; sourceTree = "<group>"; };
 		39D9DCE02C235999002C27D9 /* GetMealRecipeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMealRecipeRepository.swift; sourceTree = "<group>"; };
@@ -142,6 +142,14 @@
 			path = SlideUp;
 			sourceTree = "<group>";
 		};
+		3956FA712C45D28D00D22B4F /* AppDependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3956FA722C45D2BA00D22B4F /* AppDependencies.swift */,
+			);
+			path = AppDependencies;
+			sourceTree = "<group>";
+		};
 		3963DDE72C176A3E005EF06D = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +189,7 @@
 		3963DE012C176A60005EF06D /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				397E41992C4588F40050C019 /* Dependencies */,
+				3956FA712C45D28D00D22B4F /* AppDependencies */,
 				3963DE0A2C1B9A10005EF06D /* Entities */,
 				3963DE092C1B97F8005EF06D /* Constants */,
 				3963DE042C1B2D7F005EF06D /* Repositories */,
@@ -279,14 +287,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		397E41992C4588F40050C019 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				397E419A2C4588F40050C019 /* AppDependencies.swift */,
-			);
-			path = Dependencies;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,10 +375,10 @@
 				39150B272C238FF300FB8711 /* GetMealRecipeUseCase.swift in Sources */,
 				39D9DCE12C235999002C27D9 /* GetMealRecipeRepository.swift in Sources */,
 				3963DE192C1C7D6B005EF06D /* MealSelectedCategoryDTO.swift in Sources */,
+				3956FA732C45D2BA00D22B4F /* AppDependencies.swift in Sources */,
 				39786C792C39AE4200AACC73 /* DetailView.swift in Sources */,
 				39150B2E2C286B1000FB8711 /* CategoryCellView.swift in Sources */,
 				39D9DCDD2C2350F0002C27D9 /* GetMealsListRepository.swift in Sources */,
-				397E419B2C4588F40050C019 /* AppDependencies.swift in Sources */,
 				3963DDF62C176A3F005EF06D /* CategorySelectionView.swift in Sources */,
 				39150B462C331F1E00FB8711 /* AsyncImageView.swift in Sources */,
 				39D9DCDF2C235730002C27D9 /* MealRecipeDTO.swift in Sources */,
